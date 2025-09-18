@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="E501" />
+          <option value="E222" />
+          <option value="E202" />
+          <option value="E231" />
+          <option value="E221" />
+          <option value="E702" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.__and__" />
+          <option value="src.CarTopologieViewer.pppp.*" />
+          <option value="src.CarTopologieViewer.data_keys_enums.DataKeysEnum" />
+          <option value="src.CarTopologieViewer.Preparing_data.Prepare.prepare_switch_ports_to_switch_port" />
+          <option value="src.CarTopologieViewer.Preparing_data.Prepare.prepare_switch_to_switch_port" />
+          <option value="src.CarTopologieViewer.Preparing_data.Prepare.prepare_switch_to_controller" />
+          <option value="src.CarTopologieViewer.Preparing_data.Prepare.prepare_controller_to_ecu" />
+          <option value="src.CarTopologieViewer.Preparing_data.Prepare.prepare_switch_port_to_controller" />
+          <option value="src.neo4j" />
+          <option value="src.CarTopologieViewer.nn.preparee_data" />
+          <option value="src.CarTopologieViewer.prepare_data1" />
+          <option value="src.CarTopologieViewer.graphing.Neo4jConnector" />
+          <option value="src.CarTopologieViewer.graphing.dash" />
+          <option value="src.CarTopologieViewer.graphe.prepare_data_instance" />
+          <option value="src.CarTopologieViewer.__main__.prepare_data" />
+          <option value="src.CarTopologieViewer.graphe.unique_vlans" />
+          <option value="src.CarTopologieViewer.up.PrepareData" />
+          <option value="src.CarTopologieViewer.PrepareData" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
